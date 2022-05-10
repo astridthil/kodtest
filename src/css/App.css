@@ -1,0 +1,173 @@
+body {
+  font-size: 13px;
+}
+.header {
+  background-color: #282c34;
+  opacity: 0.7;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5rem;
+  color: rgb(218, 218, 180);
+}
+.nav-right {
+  margin-right: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+.nav-login-btn {
+  background-color: rgb(207, 207, 112);
+  border-color: transparent;
+  border-radius: 15px;
+  width: 8rem;
+  height: 2rem;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item {
+  margin-left: 2rem;
+  width: 7rem;
+}
+.startpage-body {
+  text-align: center;
+  height: 41rem;
+  color: rgb(228, 228, 228);
+  width: 50%;
+  margin: auto;
+}
+.startpage-title {
+  margin-top: 40%;
+}
+.startpage-title-big {
+  font-size: 60px;
+}
+.login-name {
+  margin-right: 2rem;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+}
+.popup-body {
+  backdrop-filter: blur(10px);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50));
+  height: 47rem;
+}
+.popup-open {
+  background-color: lightgray;
+  width: 25rem;
+  margin: auto;
+  text-align: left;
+  border-radius: 8px;
+  margin-top: 10%;
+  margin-bottom: 21%;
+  font-size: 20px;
+}
+.popup-close {
+  border-color: transparent;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+.popup-form {
+  text-align: center;
+}
+.popup-items {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.input-name {
+  width: 97%;
+  height: 2rem;
+  border-radius: 8px;
+  border-color: transparent;
+}
+.input-btn {
+  width: 100%;
+  height: 2rem;
+  border-radius: 8px;
+  border-color: transparent;
+  background-color: rgb(165, 165, 125);
+  margin-top: 1rem;
+  text-decoration: none;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+.popup-small {
+  font-size: 10px;
+  padding-bottom: 2rem;
+}
+.popup-text {
+  font-size: 16px;
+}
+
+@media only screen 
+  and (max-width: 1000px) {
+body {
+  font-size: 12px;
+}
+.navbar {
+  margin-left: 2rem;
+}
+.nav-login-btn {
+  width: 6rem;
+  height: 1.5rem;
+}
+.nav-right {
+  margin-right: 3rem;
+}
+.startpage-title-big {
+  font-size: 40px;
+}
+.popup-open {
+  width: 20rem;
+  font-size: 16px;
+}
+.popup-text {
+  font-size: 14px;
+}
+
+  
+  }
+
+@media only screen 
+  and (max-width: 700px) {
+    body {
+      font-size: 8px;
+    }
+    .nav-login-btn {
+      width: 4rem;
+      height: 1.5rem;
+    }
+    .nav-item {
+      margin-left: 0.5rem;
+    }
+    .startpage-title-big {
+      font-size: 30px;
+    }
+    .login-name {
+      font-size: 8px;
+    }
+    .popup-open {
+      width: 18rem;
+      height: 15rem;
+      font-size: 14px;
+    }
+    .popup-text {
+      font-size: 12px;
+    }
+  }
